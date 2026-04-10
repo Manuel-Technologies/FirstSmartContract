@@ -1,5 +1,5 @@
 [package]
-name = "proof_of_determination"
+name = "kratos_build"
 version = "1.0.0"
 license = "Apache-2.0"
 edition = "2024"
@@ -8,6 +8,6 @@ edition = "2024"
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 
 [addresses]
-pod = "0x0"           # will auto-upgrade to 0x0 → real package ID after publish
+krtb = "0x0"           # will auto-upgrade to 0x0 → real package ID after publish
 std = "0x1"
 sui = "0x2"
